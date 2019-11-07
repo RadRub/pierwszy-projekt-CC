@@ -5,14 +5,19 @@ body {font-family:Arial, Helvetica, Sans-serif;font-size:15px;line-height:1.5;fo
 
 .container {width:100%;max-width:1050px;margin:0 auto;}
 
-header {margin:25px 0;}
 header img {width:100%;}
 
-.menu-trigger {color:#white;background:#FFC000;font-weight:700;text-transform:uppercase;padding:15px;margin:0 0 5px;cursor:pointer;}
+.menu-trigger {color:#white;background:#ff9500;font-weight:700;text-transform:uppercase;padding:15px;margin:0 0 5px;cursor:pointer;}
 
 aside {float:left; margin:0 0 25px;}
 
 #main {float:right; margin:0 0 25px;}
+
+@keyframes Postęp kursu
+{
+  0% { width:150px; }
+  100% { width:350px; }
+}
 
 footer {clear:both;color:#FFF;background:#121212;padding:15px 0 15px 30px;margin:0 0 25px;}
 
@@ -37,6 +42,6 @@ footer {clear:both;color:#FFF;background:#121212;padding:15px 0 15px 30px;margin
 	aside nav {display:none;}
 	aside nav ul {list-style:none;}
 	aside nav ul li {margin-bottom:1px;}
-	aside nav ul li a {display:block;font-size:14px;font-weight:700;text-decoration:none;color:#fff;background:#333;padding:12px 20px;}
-	aside nav ul li a:hover{background:#212121;color:#FFF;}
+	aside nav ul li a {display:block;font-size:14px;font-weight:700;text-decoration:none;color:#000;background:#ff9500;padding:12px 20px;}
+	aside nav ul li a:hover{background:#212121;color:#000;}
 }
